@@ -10,7 +10,6 @@ import org.junit.jupiter.api.Test;
 import pojo.ComponentePojo;
 import pojo.ProdutoPojo;
 import pojo.UsuarioPojo;
-
 import java.util.ArrayList;
 import java.util.List;
 
