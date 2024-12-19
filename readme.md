@@ -25,9 +25,9 @@ Este projeto consiste em um conjunto de testes automatizados para a API REST da 
 -   Configuração de uma base URI e basePath para facilitar a execução de testes nos endpoints da API.
 -   Obtenção do token de autenticação do administrador via endpoint de login para utilização nos testes.
 -   Implementação de testes para os endpoints do módulo de produtos, incluindo:
-  -   Criação de produtos.
-  -   Validação de dados retornados pela API.
-  -   Tratamento de respostas HTTP e validação de status codes.
+    -   Criação de produtos.
+    -   Validação de dados retornados pela API.
+    -   Tratamento de respostas HTTP e validação de status codes.
 - Dados que estão vinculados diretamente a regra de negócio que diz que o valor do produto deve estar entre R$ 0,01 e R$7.000,00.
 
 ## Notas Gerais
