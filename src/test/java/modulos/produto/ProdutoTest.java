@@ -31,7 +31,6 @@ public class ProdutoTest {
             .then()
                 .extract()
                     .path("data.token");
-
     }
 
     @Test
@@ -51,7 +50,6 @@ public class ProdutoTest {
                 .assertThat()
                 .body("error", equalTo("O valor do produto deve estar entre R$ 0,01 e R$ 7.000,00"))
                 .statusCode(422);
-
     }
 
     @Test
@@ -71,8 +69,5 @@ public class ProdutoTest {
                 .assertThat()
                 .body("error", equalTo("O valor do produto deve estar entre R$ 0,01 e R$ 7.000,00"))
                 .statusCode(422);
-
-
-
     }
 }
